@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="custom-navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Shambhu J</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="about-content">
+                <div class="image-container">
+                    <!-- Replace with your image -->
+                    <img src="photos/Shambhu.jpg" alt="Shambhu Niwas Jagtap" class="image-fluid">
+                </div>
+                <div class="text-container">
+                    <h2>About Me</h2>
+                    <p>I am Shambhu Niwas Jagtap, a final-year Computer Science Engineering student at VIT Chennai, with
+                        a
+                        passion for web development and data analytics. With a strong foundation in programming
+                        languages
+                        like Java, SQL, and Python, and expertise in frameworks such as React.js, I
+                        aim to create impactful and efficient solutions. My journey includes hands-on experience with
+                        interactive web applications, data visualization, and sentiment analysis, consistently
+                        demonstrating
+                        a commitment to
+                        delivering high-quality results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 id="heading">Projects</h2>
+    <div id="projects">
+        <div class="card-custom">
+            <img src="photos/ReactLogo.png" class="card-img-top" alt="Tic Tac Toe Image">
+            <div class="card-body">
+                <p class="card-text">The Tic Tac Toe Game is a simple, interactive web-based application developed using
+                    React. The game allows two players to take turns marking the spaces in a 3x3 grid with "X" and "O"
+                    symbols. Designed intuitive UI/UX features and implemented dynamic game logic, ensuring an engaging
+                    and seamless user
+                    experience.</p>
+                <div class="d-flex align-items-center">
+                    <div class="tools">
+                        <span class="reactTools">React</span>
+                        <span class="reactTools">JavaScript</span>
+                        <span class="reactTools">HTML</span>
+                        <span class="reactTools">CSS</span>
+                    </div>
+                    <a href="https://shambhu-ttt.web.app/" target="_blank" style="margin-left: 70px;">
+                        <button class="visit-site-btn">Visit Site</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-custom">
+            <img src="photos/Excel img.png" class="card-img-top" alt="Excel Image">
+            <div class="card-body">
+                <p class="card-text">This project involved cleaning a dataset using Excel tools and creating pivot
+                    tables to summarize key insights. Filters were applied for easy data segmentation. The final output
+                    is a dashboard combining these pivot tables and visualizations, providing a clear, user-friendly
+                    interface for data analysis and decision-making.</p>
+                <div class="d-flex align-items-center">
+                    <div class="tools">
+                        <span class="excelTools">Excel</span>
+                        <span class="excelTools">Pivot Tables</span>
+                        <span class="excelTools">Data Cleaning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-custom">
+            <img src="photos/Power Bi.png" class="card-img-top" alt="Power BI logo">
+            <div class="card-body">
+                <p class="card-text">This project involved Microsoft Power BI to analyze Excel data of data analyst
+                    learners and developers. After performing data cleaning in Power BI, I created an insightful
+                    dashboard that provided valuable outcomes and trends based on the raw data, enabling informed
+                    decision-making.</p>
+                <div class="d-flex align-items-center">
+                    <div class="tools">
+                        <span class="powerBiTools">Power BI</span>
+                        <span class="powerBiTools">Data Cleaning</span>
+                        <span class="powerBiTools">Dashboard Creation</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card-custom">
+            <img src="photos/Python.png" class="card-img-top" alt="Python logo">
+            <div class="card-body">
+                <ul style="padding-left: 20px; margin-bottom: 20px;">
+                    <li style="margin-bottom: 15px;">
+                        <p class="card-text" style="margin-bottom: 10px;">Used Python to perform
+                            exploratory data analysis (EDA) on Diwali sales data. It involves cleaning the data and
+                            creating various visualizations to analyze sales trends and outcomes.</p>
+                    </li>
+                    <li style="margin-bottom: 15px;">
+                        <p class="card-text" style="margin-bottom: 10px;">Used Python to fetche cryptocurrency data from
+                            an API token, store it in a file after collecting data points at fixed interval, and
+                            performs analysis and visualizations to gain insights into
+                            crypto market trends.</p>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center" style="justify-content: start;">
+                    <!-- Skills Section -->
+                    <div class="tools" style="display: flex; gap: 10px;">
+                        <span class="pythonTools">Data Cleaning</span>
+                        <span class="pythonTools">Visualizations</span>
+                        <span class="pythonTools">API</span>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div style="display: flex; gap: 10px;">
+                        <a href="https://github.com/shambhuj12/diwali_python_EDA" target="_blank">
+                            <button class="visit-site-btn"
+                                style="font-size: 16px; border-radius: 25px;margin-left: 55px;">Diwali
+                                Project</button>
+                        </a>
+                        <a href="https://github.com/shambhuj12/Crypto_Python_Project" target="_blank">
+                            <button class="visit-site-btn" style="font-size: 16px; border-radius: 25px; ">Crypto
+                                Project</button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-custom">
+            <img src="photos/OtherProjects2.jpg" class="card-img-top" alt="Tic Tac Toe Image">
+            <div class="card-body">
+                <ul style="padding-left: 20px; margin-bottom: 20px;">
+                    <h5>Some of my other projects Include: </h5>
+                    <li style="margin-bottom: 10px;">
+                        <p class="card-text" style="margin-bottom: 10px;">Used Ptolemy2 tool to simulate the working of
+                            Elevator.</p>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <p class="card-text" style="margin-bottom: 10px;">Used MySQL to perform data cleaning and
+                            exploratory data analysis (EDA).</p>
+                    </li>
+                    <!-- <li style="margin-bottom: 10px;">
+                        <p class="card-text" style="margin-bottom: 10px;">Used Python and opencv library to create a
+                            smart human identification system system. </p>
+                    </li> -->
+                    <li style="margin-bottom: 10px;">
+                        <p class="card-text" style="margin-bottom: 10px;">Used Tableau software for data cleaning and
+                            creating visualizations for data analytics and useful insights </p>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center" style="justify-content: start;">
+                    <div class="tools" style="display: flex; gap: 10px;">
+                        <span class="otherTools">SQL</span>
+                        <span class="otherTools">Ptolemy</span>
+                        <span class="otherTools">OpenCV</span>
+                        <span class="otherTools">Tableau</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <section id="resume" class="py-5">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my detailed resume to explore my skills, projects, and achievements in-depth.</p>
+            <button class="visit-site-btn" onclick="window.location.href='Docs/Resume Shambhu Jagtap.pdf';">Download
+                My
+                Resume</button>
+        </div>
+    </section>
+
+    <div id="certificates-section">
+        <h2>Certificates</h2>
+        <div id="certificates">
+            <div class="certificate-custom">
+                <p class="card-text">Google Cloud Computing Foundations Program</p>
+                <button class="view-cert-btn" onclick="window.open('Docs/Google Cloud.pdf', '_blank')">View
+                    Certificate</button>
+            </div>
+
+            <div class="certificate-custom">
+                <p class="card-text">MERN Full Stack Internship Program</p>
+                <button class="view-cert-btn" onclick="window.open('Docs/MERN.pdf', '_blank')">View
+                    Certificate</button>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="py-5 card-custom2">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to connect with me through any of the following platforms:</p>
+            <div class="contact-icons">
+                <a href="https://github.com/shambhuj12" target="_blank" title="GitHub">
+                    <img src="photos/github.png" alt="GitHub">
+                </a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#emailModal" title="Email">
+                    <img src="photos/gmail.png" alt="Email">
+                </a>
+                <a href="https://www.linkedin.com/in/shambhu-jagtap/" target="_blank" title="LinkedIn">
+                    <img src="photos/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://wa.me/+918999958655" target="_blank" title="WhatsApp">
+                    <img src="photos/whatsapp.png" alt="WhatsApp">
+                </a>
+
+                <a href="https://www.instagram.com/sham_bhu_j/" target="_blank" title="Instagram">
+                    <img src="photos/Instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+        <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="emailModalLabel">Contact Information</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Email: <strong>shambhujagtapcoc.com</strong>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 " style="margin-top: 1000px;">
+        <p>&copy; 2025 Shambhu Niwas Jagtap.</p>
+    </footer>
+
+
+</body>
+
+</html>
